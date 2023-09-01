@@ -1,0 +1,141 @@
+/*Estilo Geral*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+.tela{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.alinhar{
+    text-align: center;
+    color: white;
+}
+
+.image-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.image-box {
+    flex: 1;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+}
+
+/*Estilo do cabeçalho*/
+
+header{
+    padding: 40px 4%;
+    background-color: rgb(101, 147, 144);
+}
+
+header a{
+    color:black;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header > .tela{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a:hover{
+    color:white;
+    transform: scale(1.05);
+}
+ 
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: aqua;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+header .btn-contato button:hover{
+    box-shadow: 0px 0px 8px rgb(36, 76, 76);
+}
+
+/*Estilo do topo do site*/
+
+section.topo-site{
+    padding: 40px 4%;
+}
+
+
+
+select.topo-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-site h1{
+    color: white;
+    font-size: 38px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.txt-topo-site p{
+    color:white;
+    margin: 15px 0;
+}
+
+.txt-topo-site ol li{
+    color: white;
+    margin: 15px 0;
+}
+
+.espaço ol p{
+    margin: 25px;
+}
+
+.info-box {
+    width: 500px;
+    height: 50px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box; /* Isso inclui a borda e o padding no tamanho total */
+    text-align: center;
+    margin-top: 50px; /* Adiciona um espaço entre o topo da página */
+}
+
+.ima{
+    width: 150px;
+    height: 10px;
+}
